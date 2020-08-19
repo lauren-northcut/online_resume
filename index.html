@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- https://getbootstrap.com/ -->
     <link rel="stylesheet" href="css/tooplate-style.css" />
- 
+    <link rel="stylesheet" href="./css/styling.css">
   </head>
 
   <body>
@@ -23,7 +23,8 @@
     <div class="container" id="home">
       <div class="col-12 text-center">
         <div class="tm-page-header">
-          <i class="fas fa-4x fa-chart-bar mr-4"></i>
+          <!-- <img src="img/icon.png" alt="..." class="img-thumbnail"> -->
+         
           <h1 class="d-inline-block text-uppercase">Autumn Brown</h1>
         </div>
       </div>
@@ -82,7 +83,7 @@
             <header>
               <h2 class="tm-banner-title">Choose Excellence</h2>
               <p class="mx-auto tm-banner-subtitle">
-                This website is intended to take place of a traditional resume'. 
+                My purpose and passion is to ensure that all students have the access and opportunity to achieve academic excellence...
               </p>
             </header>
           </div>
@@ -153,11 +154,13 @@
               <img src="img/img-01.jpg" alt="Image" class="tm-activity-img" />
             </div>
             <div class="tm-activity-block-text">
-              <h3 class="tm-text-blue">Current Position</h3>
+              <h3 class="tm-text-blue">Clayton County School District <span><h6>Academic Autism  Self Contained Teacher</h6></span></h3>
               <p>
-                Orci varius natoque penatibus et magnis dis parturient montes,
-                nascetur ridiculus mus. Sed eu turpis nec sem lacinia
-                condimentum et a orci.
+               <ul>
+                 <li>Provides services to students on the Autism Spectrum to ensure an educational program is stabled and progress can be monitored and enhanced</li>
+                 <li>Actively participates in IEP conferences including behavior management plans, functional analysis of behavior, placement, and annual reviews</li>
+                 <li>Maintains accurate and complete records as required by law, CCPS, and GaDOE</li>
+               </ul>
               </p>
             </div>
           </div>
@@ -313,10 +316,25 @@
             <header>
               <h2 class="tm-contact-header">Contact Me</h2>
             </header>
-           <h3>Email:<span></span></h3>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6" ><span id="email">Contact Email</span> <br/> <span><p class="style" id="myElem">emailHere</p></span></div>
+                <div class="col-sm-6" id="contact">Contact Number</div>
+               
+             
+              </div>
+              <div class="row">
+                <a class="col-sm-6" href="./AUTUMN BROWN RESUME 2020 TE.pdf" download>
+                  Download Resume'
+                      </a>
+                <div class="col-sm-6" id="location">Location</div>
+              </div>
+            </div>
+           <!-- <h3>Email:<span></span></h3>
            <h3>Phone:<span></span></h3>
            <h3>Address:<span></span></h3>
-           <h3>Social Network:<span></span></h3>
+           <h3>Social Network:<span></span></h3> -->
+           
           </div>
         </div>
         <div class="col-xl-7 col-lg-6 col-md-12 tm-contact-right">
@@ -496,6 +514,10 @@
           return false;
         });
       });
+
+  
     </script>
+    <script src="./js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   </body>
 </html>
